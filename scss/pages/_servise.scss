@@ -1,0 +1,113 @@
+.servise-hero {
+  background-color: $c-secondary;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  margin-bottom: 9.6rem;
+}
+.servise-hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.servise-hero-left {
+  width: 100%;
+  max-width: 625px;
+}
+.servise-hero-left-mini-title {
+  @include mini-title;
+  margin-bottom: 1.2rem;
+}
+.servise-hero-left-title {
+  @include title;
+  margin-bottom: 2.4rem;
+}
+.servise-hero-left-descraption {
+  margin-bottom: 4rem;
+}
+.servise-hero-left-btn {
+  display: flex;
+  gap: 1.2rem;
+  color: $c-white;
+  background-color: #444cfc;
+  padding: 2rem 3.2rem;
+  padding: 2rem 3.2rem;
+  width: max-content;
+  background-image: url("../../images/btn-shapes.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 28px 28px;
+
+  img {
+    object-fit: contain;
+  }
+}
+
+.servise-hero-right-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.servise-hero-right-item {
+}
+.servise-hero-right-link {
+  font-weight: $fw-600;
+  font-size: $fs-24;
+  line-height: $lh-36;
+  letter-spacing: 0px;
+  color: $site__color;
+}
+
+.servise-info {
+}
+.servise-info__container {
+}
+.servise-info-list {
+}
+.servise-info-item {
+  &:nth-child(2) {
+    background-color: #ecf8f9;
+
+    .servise-info-item-container {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &:nth-child(2) {
+    background-color: #ecf8f9;
+    
+    .servise-info-item-container {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+.servise-info-item-container {
+  display: flex;
+  gap: 14rem;
+}
+
+.servise-info-content {
+  margin-top: 14.1rem;
+  margin-bottom: 16rem;
+}
+.servise-info-mini-title {
+  font-weight: $fw-600;
+  font-size: $fs-24;
+  line-height: $lh-24;
+  letter-spacing: 0px;
+  margin-bottom: 1.6rem;
+}
+.servise-info-title {
+  font-weight: $fw-600;
+  font-size: $fs-36;
+  line-height: $lh-54;
+  letter-spacing: 0px;
+  margin-bottom: 2.4rem;
+}
+.servise-info-descraption {
+  opacity: 0.6;
+}
+.servise-info-image {
+  width: 516px;
+  height: 539px;
+}

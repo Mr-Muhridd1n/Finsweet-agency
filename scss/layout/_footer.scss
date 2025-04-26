@@ -1,0 +1,220 @@
+.footer {
+}
+.footer__container {
+}
+.footer__subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $c-secondary-blue;
+  padding: $p-96;
+  background-image: url("../../images/shapes-blur.svg"),
+    url("../../images/shapes-line.svg");
+  background-repeat: no-repeat;
+  background-position: top left, right;
+  background-size: 88.59px 80px, contain;
+  margin-bottom: $mb-96;
+}
+.footer__subscribe__content {
+  width: 100%;
+  max-width: 488px;
+  color: $c-white;
+}
+.footer__subscribe__mini-title {
+  font-weight: $fw-500;
+  font-size: $fs-14;
+  line-height: $lh-20;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.footer__subscribe__title {
+  font-weight: $fw-600;
+  font-size: $fs-36;
+  line-height: $lh-54;
+}
+.footer__subscribe__form {
+}
+.footer__subscribe__input {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: $p-20 $p-29;
+  width: 454px;
+  text-align: left;
+  font-weight: $fw-500;
+  font-size: $fs-16;
+  line-height: $lh-24;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    opacity: 0.4;
+  }
+}
+.footer__top {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: $mb-64;
+}
+.footer__top__info {
+  width: 100%;
+  max-width: 453px;
+}
+.footer__top__info-title {
+  font-weight: $fw-600;
+  font-size: $fs-48;
+  line-height: $lh-58;
+  margin-bottom: $mb-40;
+}
+.footer__top__info-mini-title {
+  font-weight: $fw-600;
+  font-size: $fs-24;
+  line-height: $lh-36;
+  margin-bottom: 2.8rem;
+}
+.footer__top__info-number {
+  font-weight: $fw-500;
+  font-size: $fs-18;
+  line-height: $lh-28;
+  color: $site__color;
+  margin-bottom: 0.4rem;
+}
+.footer__top__info-email {
+  font-weight: $fw-500;
+  font-size: $fs-18;
+  line-height: $lh-28;
+  display: block;
+  color: $site__color;
+  margin-bottom: 1.4rem;
+}
+
+.footer__top__info-line {
+  width: 100%;
+  max-width: 268px;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.6rem;
+}
+
+.footer__top__info-address {
+  p {
+    font-weight: $fw-500;
+    font-size: $fs-14;
+    line-height: $lh-20;
+    width: 206px;
+  }
+}
+.footer__top__links {
+  display: flex;
+  padding-right: 117px;
+  padding-top: $p-80;
+  padding-bottom: $p-92;
+}
+.footer__top__links_pages-list {
+  margin-right: $mr-61;
+  display: flex;
+  flex-direction: column;
+  gap: $g-12;
+}
+.footer__top__links_pages-item {
+}
+.footer__top__links_pages-link {
+  font-weight: $fw-600;
+  font-size: $fs-16;
+  line-height: $lh-28;
+  color: $site__color;
+}
+.footer__top__links_service-list {
+  margin-right: 5.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: $g-12;
+}
+.footer__top__links_service-item {
+}
+.footer__top__links_service-link {
+  font-weight: $fw-500;
+  font-size: $fs-14;
+  line-height: $lh-20;
+  color: $site__color;
+}
+
+.footer__top__links_resoureses-list {
+  display: flex;
+  flex-direction: column;
+  gap: $g-12;
+}
+.footer__top__links_resoureses-item {
+}
+.footer__top__links_resoureses-link {
+  font-weight: $fw-500;
+  font-size: $fs-14;
+  line-height: $lh-20;
+  color: $site__color;
+}
+
+.bold-text {
+  font-weight: $fw-600;
+  font-size: $fs-16;
+  line-height: $lh-28;
+  color: $site__color;
+}
+
+.contact-link {
+  display: flex;
+  gap: 0.8rem;
+  position: absolute;
+  padding-left: 5.8rem;
+  bottom: 0;
+  right: 0;
+  background-image: url("/images/shapes-button-line.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.contact-link-title {
+  font-weight: $fw-500;
+  font-size: $fs-16;
+  line-height: $lh-24;
+  color: $site__color;
+}
+.contact-link-image-arrow {
+  object-fit: contain;
+}
+.footer__bottom {
+  background-color: $c-secondary;
+  padding-top: 2.8rem;
+  padding-bottom: 2.7rem;
+}
+.footer__bottom__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__bottom-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4.2rem;
+}
+.footer__bottom-logo-link {
+}
+.footer__bottom-logo-image {
+}
+.footer__bottom-logo-title {
+  font-weight: $fw-500;
+  font-size: $fs-16;
+  line-height: $lh-24;
+}
+.footer__bottom__socals {
+  display: flex;
+  gap: 2.7rem;
+}
+.footer__bottom__socals-link {
+}
+.footer__bottom__socals-logo {
+}

@@ -1,0 +1,17 @@
+@mixin mini-title {
+  width: 100%;
+  font-weight: $fw-500;
+  font-size: $fs-14;
+  line-height: $lh-20;
+  text-transform: uppercase;
+}
+
+@mixin title {
+  width: 100%;
+  font-weight: $fw-600;
+  font-size: $fs-48;
+  line-height: $lh-58;
+  letter-spacing: 0px;
+}
+
+//  @include mini-title;
