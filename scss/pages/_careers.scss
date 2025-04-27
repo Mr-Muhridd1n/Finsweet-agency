@@ -1,0 +1,135 @@
+.careers__hero {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+.careers__hero__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.careers__hero__mini__title {
+  @include mini-title;
+  margin-bottom: 2.4rem;
+}
+.careers__hero__title {
+  @include title;
+  margin-bottom: 2.4rem;
+  max-width: 624px;
+}
+.careers__hero__descraption {
+  margin-bottom: 6.4rem;
+  width: 100%;
+  max-width: 624px;
+}
+.careers__hero__bg__title {
+  width: 1099.79px;
+  height: 194.95px;
+  margin-bottom: 8.06rem;
+}
+.careers__hero__cta {
+}
+.careers__hero__cta-title {
+  margin-bottom: 1.6rem;
+}
+.careers__hero__cta-emoji {
+}
+
+// JOBS
+.jobs {
+  margin-bottom: 9.6rem;
+}
+.job__container {
+  background-color: #ecf8f9;
+}
+.job__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  padding: 7.7rem;
+}
+.job__item {
+  width: 100%;
+  max-width: 354px;
+  background-color: $c-white;
+  padding-top: 4.8rem;
+  padding-left: 4.8rem;
+  padding-bottom: 3rem;
+}
+.job__title {
+  @include mini-title;
+  text-transform: none;
+  margin-bottom: 1rem;
+  font-weight: $fw-600;
+  letter-spacing: normal;
+}
+.job__plase {
+  opacity: 0.6;
+}
+.job__price {
+  opacity: 0.6;
+  margin-bottom: 5.2rem;
+}
+.job__link {
+  display: flex;
+  color: #5d5fef;
+  gap: 1.2rem;
+
+  img {
+    object-fit: contain;
+  }
+}
+// WORK
+.work {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  margin-bottom: 9.6rem;
+  background-color: #fafafc;
+}
+.work__container {
+}
+.work__content {
+  width: 100%;
+  max-width: 624px;
+  margin-bottom: 6.4rem;
+}
+.work__mini__title {
+  @include mini-title;
+  margin-bottom: 1.6rem;
+}
+.work__title {
+  @include title-36-54;
+  margin-bottom: 2.4rem;
+}
+.work__descraption {
+  opacity: 0.6;
+}
+
+.work__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+.work__item {
+  width: 100%;
+  max-width: 418px;
+  background-color: $c-white;
+  padding: 3.2rem;
+}
+.work__item-img {
+  width: 39.96px;
+  height: 40px;
+  margin-bottom: 0.8rem;
+}
+.work__item-content {
+}
+.work__item-content-title {
+  @include mini-title;
+  font-weight: $fw-600;
+  text-transform: none;
+  margin-bottom: 0.8rem;
+  letter-spacing: normal;
+}
+.work__item-content-descraption {
+  opacity: 0.6;
+}

@@ -1,0 +1,219 @@
+.ether {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+.ether__container {
+  display: flex;
+  justify-content: space-between;
+}
+.ether__content {
+  width: 100%;
+  max-width: 492px;
+  margin-top: 3.2rem;
+}
+.ether__mini__title {
+  @include mini-title;
+  margin-bottom: 2.4rem;
+}
+.ether__title {
+  @include title;
+  margin-bottom: 1.6rem;
+}
+.ether__descraption {
+  width: 100%;
+  max-width: 430px;
+  opacity: 0.87;
+  margin-bottom: 4rem;
+}
+.ether__btn {
+  width: max-content;
+  background-color: $c-dark-blue;
+  display: flex;
+  gap: 1.3rem;
+  background-image: url("../../images/shapes-blur.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 29px 27px;
+  padding: 2rem 3.2rem;
+  color: $c-white;
+
+  img {
+    object-fit: contain;
+  }
+}
+.ether-info {
+  background-color: $c-secondary;
+  width: 100%;
+  max-width: 515px;
+  padding-top: 8.2rem;
+  padding-left: 8rem;
+  padding-bottom: 7.8rem;
+  background-image: url("../../images/shapes-right.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 48px 52px;
+}
+.ether-info-title {
+  @include title-24-36;
+  margin-bottom: 2.4rem;
+}
+.ether-info__workplace {
+  color: #000000;
+  margin-bottom: 1.6rem;
+}
+.ether-info__experience {
+  color: #000000;
+  margin-bottom: 1.6rem;
+}
+.pether-info__work-time {
+  color: #000000;
+  margin-bottom: 1.6rem;
+}
+
+// Information
+.information {
+}
+.information__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ecf8f9;
+  padding-top: 4.3rem;
+  padding-bottom: 9.6rem;
+}
+.information__type {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8.4rem;
+  padding-bottom: 3.3rem;
+  border-bottom: solid 4px #e0f1f2;
+  margin-bottom: 9.6rem;
+}
+.information__type-link {
+  @include title-24-36;
+  color: #000000;
+  width: max-content;
+}
+.information__type-link-active {
+  color: #454dfd;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    background-color: #454dfd;
+    top: 7rem;
+  }
+}
+.information-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 863px;
+  list-style: revert;
+}
+.information-info-item {
+}
+.information-info-descraption {
+}
+
+// APPLY-NOW
+.apply-now {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+.apply-now__container {
+}
+.apply-now__title {
+  @include title-36-54;
+  margin-bottom: 2.9rem;
+}
+.apply-now-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3.2rem;
+
+  input {
+    padding: 3.4rem 4rem;
+    background-color: #f9f9ff;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.apply-now-form-name {
+  width: 100%;
+  max-width: 624px;
+}
+.apply-now-form-last {
+  width: 100%;
+  max-width: 624px;
+}
+
+.apply-now-form-email {
+  width: 100%;
+  max-width: 624px;
+}
+.apply-now-form-number {
+  width: 100%;
+  max-width: 624px;
+}
+.apply-now-form-text {
+  padding: 3.4rem 4rem;
+  background-color: #f9f9ff;
+  border: none;
+  width: 100%;
+  height: 225px;
+
+  &:focus {
+    outline: none;
+  }
+}
+.apply-now-form-cheskbox {
+  width: 36px;
+  height: 36px;
+  margin-right: 1.6rem;
+
+  &:checked {
+    background-color: red;
+  }
+}
+.apply-now-form-cheskbox-text {
+  display: inline-block;
+  width: 100%;
+  max-width: 842px;
+  position: relative;
+  top: 10px;
+  margin-bottom: 3.6rem;
+}
+.apply-now-form-button {
+  display: flex;
+  gap: 1.2rem;
+  border: none;
+  background-color: #444cfc;
+  padding: 2rem 3.2rem;
+  background-image: url("../../images/shapes-blur.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 29px 27px;
+  color: $c-white;
+
+  img {
+    object-fit: contain;
+  }
+}

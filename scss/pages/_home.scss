@@ -1,4 +1,5 @@
 .hero {
+  padding-top: 9.6rem;
   background-color: $site__color;
   margin-bottom: $mb-120;
 }
@@ -223,6 +224,13 @@
   display: flex;
   gap: 1.6rem;
   background-color: $c-white;
+
+  &:nth-child(3) {
+    background-image: url("../../images/process-item-line.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+  }
 }
 .our-expirtise__item-img {
 }
@@ -324,6 +332,10 @@
 .process__container {
 }
 .process__content {
+  background-image: url("../../images/shapes-right.svg");
+  background-repeat: no-repeat;
+  background-position: top 22px right;
+  background-size: 29px 27px;
   margin-bottom: 6.8rem;
 }
 .process_title {

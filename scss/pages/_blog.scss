@@ -1,0 +1,226 @@
+.trending {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+}
+.trending__container {
+  display: flex;
+  justify-content: space-between;
+}
+.trending__left {
+  width: 100%;
+  max-width: 624px;
+}
+.trending__shapes {
+  width: 24px;
+  height: 24px;
+  background-color: $c-secondary;
+}
+.trending__left__mini__title {
+  @include mini-title;
+  margin-bottom: 2.4rem;
+}
+.trending__left__title {
+  @include title;
+  margin-bottom: 2.4rem;
+}
+.trending__left__descraption {
+  opacity: 0.87;
+  margin-bottom: 2.4rem;
+}
+.trending__left__link {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 4rem;
+
+  img {
+    object-fit: contain;
+  }
+}
+.trending__left__author {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  margin-bottom: 4.9rem;
+
+  p {
+    opacity: 0.6;
+  }
+}
+.trending__left__author-image {
+}
+.trending__left__author-name {
+  @include mini-title;
+  text-transform: none;
+  opacity: 0.87;
+  width: max-content;
+  letter-spacing: normal;
+}
+.trending__left__author-posted-time {
+  opacity: 0.6;
+}
+.trending__left__image-wrapper {
+}
+.trending__left__image {
+  width: 624px;
+  height: 390px;
+}
+.trending__right {
+  width: 100%;
+  max-width: 515px;
+  background-color: $c-secondary;
+  padding: 7.2rem;
+  height: 738px;
+  background-image: url("../../images/shapes-right.svg");
+  background-repeat: no-repeat;
+  background-position: right 0;
+}
+.trending__right_list {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+.trending__right_item {
+}
+.trending__right__title {
+  @include title-24-36;
+  margin-bottom: 1.6rem;
+}
+.trending__right__post-author {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.trending__right__post-author-image {
+  width: 32px;
+  height: 32px;
+}
+.trending__right__post-author-info {
+}
+.trending__right__post-author-name {
+  opacity: 0.87;
+}
+.trending__right__post-author-time {
+  opacity: 0.6;
+  @include mini-title;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.recant-post {
+  padding-bottom: 9.6rem;
+}
+.recant-post__container {
+}
+.recant-post-title {
+  @include title;
+  margin-bottom: 6.4rem;
+}
+.recant-post-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
+.recant-post-item {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  width: 100%;
+  max-width: 624px;
+  background-color: #f9f9ff;
+}
+.recant-post-img {
+  width: 296px;
+  height: 248px;
+}
+.recant-post-content {
+}
+.recant-post-content-title {
+  @include title-24-36;
+  margin-bottom: 3.4rem;
+}
+.recant-post-content-author {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 32px;
+    height: 32px;
+    margin-right: 1.2rem;
+  }
+}
+.recant-post-author-content {
+}
+.recant-post-author-content-name {
+  opacity: 0.87;
+}
+.recant-post-author-content-post-date {
+  @include mini-title;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 0.6;
+}
+
+.all-post {
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  background-color: #f9f9f9;
+  margin-bottom: 9.6rem;
+}
+.all-post__container {
+}
+.all-post-title {
+  @include title;
+  margin-bottom: 6.4rem;
+}
+.all-post-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
+.all-post-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  width: 100%;
+  max-width: 405px;
+  background-color: $c-white;
+  padding-bottom: 3.2rem;
+}
+.all-post-img {
+  width: 100%;
+  height: 266px;
+}
+.all-post-content {
+  width: 100%;
+  max-width: 341px;
+}
+.all-post-content-title {
+  @include title-24-36;
+  margin-bottom: 1.6rem;
+}
+.all-post-content-descraption {
+  opacity: 0.87;
+  margin-bottom: 2.4rem;
+}
+.all-post-content-author {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 32px;
+    height: 32px;
+    margin-right: 1.2rem;
+  }
+}
+.all-post-author-content {
+}
+.all-post-author-content-name {
+  opacity: 0.87;
+}
+.all-post-author-content-post-date {
+  @include mini-title;
+  text-transform: none;
+  letter-spacing: normal;
+  opacity: 0.6;
+}

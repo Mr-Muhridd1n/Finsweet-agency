@@ -4,6 +4,7 @@
   font-size: $fs-14;
   line-height: $lh-20;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 @mixin title {
@@ -11,6 +12,21 @@
   font-weight: $fw-600;
   font-size: $fs-48;
   line-height: $lh-58;
+  letter-spacing: 0px;
+}
+
+@mixin title-36-54 {
+  width: 100%;
+  font-weight: $fw-600;
+  font-size: $fs-36;
+  line-height: $lh-54;
+  letter-spacing: 0px;
+}
+@mixin title-24-36 {
+  width: 100%;
+  font-weight: $fw-600;
+  font-size: $fs-24;
+  line-height: $lh-36;
   letter-spacing: 0px;
 }
 
